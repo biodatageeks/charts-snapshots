@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  pysequila:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-09T16:56:57.942199547Z"
+    dependencies:
+    - alias: jupyterhub
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    description: A Helm chart for Kubernetes
+    digest: c2789368cccbbc832dc543804ee5fb10c7d682bf52af5e4cf5444ef13021901b
+    name: pysequila
+    type: application
+    urls:
+    - https://github.com/biodatageeks/charts/releases/download/pysequila-0.1.1-gfb47d3a/pysequila-0.1.1-gfb47d3a.tgz
+    version: 0.1.1-gfb47d3a
+generated: "2020-10-09T16:56:57.687090156Z"
