@@ -3,7 +3,7 @@ entries:
   pysequila:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2020-10-12T19:39:11.94876471Z"
+    created: "2020-10-12T20:05:11.975616421Z"
     dependencies:
     - alias: jupyterhub
       name: jupyterhub
@@ -29,7 +29,33 @@ entries:
     version: 0.1.3-g89ec42b
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2020-10-12T19:39:11.760591281Z"
+    created: "2020-10-12T20:05:11.773869826Z"
+    dependencies:
+    - alias: jupyterhub
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    description: pysequila is an SQL-based solution for large-scale genomic analysis
+    digest: 9c0513a0248b9d2e80fd0f377b9daf63ba9d1c7f1862600736d80799b37837d5
+    home: https://pypi.org/project/pysequila/
+    icon: https://avatars2.githubusercontent.com/u/71327120?s=200&v=4
+    keywords:
+    - bioinformatics
+    - next generation sequencing
+    - Apache Spark
+    - SQL
+    maintainers:
+    - email: team@biodatageeks.org
+      name: biodatageeks
+      url: http://biodatageeks.org/
+    name: pysequila
+    type: application
+    urls:
+    - https://github.com/biodatageeks/charts-snapshots/releases/download/pysequila-0.1.3-g7f320c2/pysequila-0.1.3-g7f320c2.tgz
+    version: 0.1.3-g7f320c2
+  - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2020-10-12T20:05:11.557657306Z"
     dependencies:
     - alias: jupyterhub
       name: jupyterhub
@@ -55,7 +81,7 @@ entries:
     version: 0.1.2-gb00ff7a
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2020-10-12T19:39:11.564595256Z"
+    created: "2020-10-12T20:05:11.345700801Z"
     dependencies:
     - alias: jupyterhub
       name: jupyterhub
@@ -79,4 +105,4 @@ entries:
     urls:
     - https://github.com/biodatageeks/charts-snapshots/releases/download/pysequila-0.1.1-g3f43300/pysequila-0.1.1-g3f43300.tgz
     version: 0.1.1-g3f43300
-generated: "2020-10-12T19:39:11.321025292Z"
+generated: "2020-10-12T20:05:11.106924419Z"
