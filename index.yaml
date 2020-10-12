@@ -3,14 +3,14 @@ entries:
   pysequila:
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2020-10-12T17:42:38.698274654Z"
+    created: "2020-10-12T17:52:25.768695482Z"
     dependencies:
     - alias: jupyterhub
       name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart/
       version: 0.9.1
     description: pysequila is an SQL-based solution for large-scale genomic analysis
-    digest: 9caa45ea8e573f55519c869b2f7979384f944fa557d0c4db6d8e9255250abe10
+    digest: 56363e26657d11cbfe98d733f8d725b8059d3f5a8989efde335513d643c27a8d
     home: https://pypi.org/project/pysequila/
     icon: https://avatars2.githubusercontent.com/u/71327120?s=200&v=4
     keywords:
@@ -25,6 +25,32 @@ entries:
     name: pysequila
     type: application
     urls:
-    - https://github.com/biodatageeks/charts/releases/download/pysequila-0.1.1/pysequila-0.1.1.tgz
-    version: 0.1.1
-generated: "2020-10-12T17:42:38.460848836Z"
+    - https://github.com/biodatageeks/charts-snapshots/releases/download/pysequila-0.1.2-gb00ff7a/pysequila-0.1.2-gb00ff7a.tgz
+    version: 0.1.2-gb00ff7a
+  - apiVersion: v2
+    appVersion: 0.1.6
+    created: "2020-10-12T17:52:25.548065891Z"
+    dependencies:
+    - alias: jupyterhub
+      name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart/
+      version: 0.9.1
+    description: pysequila is an SQL-based solution for large-scale genomic analysis
+    digest: 85e0d7f1fe5cefba88df1656c7e932d1d6f5363764e7e3d0743dd0699532a59c
+    home: https://pypi.org/project/pysequila/
+    icon: https://avatars2.githubusercontent.com/u/71327120?s=200&v=4
+    keywords:
+    - bioinformatics
+    - next generation sequencing
+    - Apache Spark
+    - SQL
+    maintainers:
+    - email: team@biodatageeks.org
+      name: biodatageeks
+      url: http://biodatageeks.org/
+    name: pysequila
+    type: application
+    urls:
+    - https://github.com/biodatageeks/charts-snapshots/releases/download/pysequila-0.1.1-g3f43300/pysequila-0.1.1-g3f43300.tgz
+    version: 0.1.1-g3f43300
+generated: "2020-10-12T17:52:25.306079702Z"
